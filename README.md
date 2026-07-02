@@ -14,7 +14,7 @@ El S.I.Ap no soporta múltiples contribuyentes de forma nativa: todos comparten 
 
 ---
 
-## ✨ Características
+##  Características
 
 - ✅ Cambio seguro entre perfiles.
 - ✅ Apertura automática de S.I.Ap.
@@ -26,7 +26,7 @@ El S.I.Ap no soporta múltiples contribuyentes de forma nativa: todos comparten 
 
 ---
 
-## ❓ ¿Por qué existe?
+##  ¿Por qué existe?
 
 S.I.Ap fue diseñado para trabajar con una única base de datos local. Esto dificulta el trabajo de estudios contables y usuarios que administran múltiples contribuyentes.
 
@@ -60,12 +60,12 @@ Si el montaje falla, restaura automáticamente el perfil anterior mediante rollb
 
 ---
 
-## 🚀 Uso
+##  Uso
 
 ### Modo interactivo
 
 ```bat
-cambiar-siap.bat
+siap-profile-switcher.bat
 ```
 
 Presioná **Enter** sin seleccionar un número para abrir el perfil actualmente activo.
@@ -73,12 +73,12 @@ Presioná **Enter** sin seleccionar un número para abrir el perfil actualmente 
 ### Modo directo
 
 ```bat
-cambiar-siap.bat estudio
+siap-profile-switcher estudio
 ```
 
 ---
 
-## 🛠️ Configuración inicial
+##  Configuración inicial
 
 1. Ejecutá S.I.Ap al menos una vez.
 2. Creá `perfil.txt` dentro del perfil activo con el nombre del perfil.
@@ -87,7 +87,7 @@ cambiar-siap.bat estudio
 
 ---
 
-## ⚙️ Configuración
+##  Configuración
 
 Si tu instalación utiliza rutas distintas, modificá estas variables al comienzo del script:
 
@@ -99,7 +99,7 @@ set "SIAP_EXE=C:\Program Files (x86)\S.I.Ap\AFIP\SIAp.exe"
 
 ---
 
-## 📋 Requisitos
+##  Requisitos
 
 - Windows
 - S.I.Ap instalado
@@ -107,6 +107,6 @@ set "SIAP_EXE=C:\Program Files (x86)\S.I.Ap\AFIP\SIAp.exe"
 
 ---
 
-## 📄 Licencia
+##  Licencia
 
 Distribuido bajo licencia MIT.
